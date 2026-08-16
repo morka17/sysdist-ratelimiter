@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import type { KeyGenerator } from '../middleware/shared/key-generator';
+import type { KeyGenerator } from '../middleware/shared/key-generator.js';
 
 // Re-exported so callers can `import type { KeyGenerator } from './schema.js'`
 // without reaching into middleware/ directly.

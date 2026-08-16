@@ -1,5 +1,5 @@
 import type { RateLimitResult } from '../result.js';
-import type { StoreInterface } from '../../store/interface.store';
+import type { StoreInterface } from '../../store/interface.store.js';
 
 /**
  * Base configuration shared by every rate-limiting algorithm.
