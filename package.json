@@ -4,6 +4,7 @@
   "description": "[![npm version](https://img.shields.io/npm/v/distributed-rate-limiter.svg)](https://www.npmjs.com/package/distributed-rate-limiter)\r [![CI](https://github.com/your-org/distributed-rate-limiter/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/distributed-rate-limiter/actions)\r [![Coverage](https://img.shields.io/codecov/c/github/your-org/distributed-rate-limiter)](https://codecov.io/gh/your-org/distributed-rate-limiter)\r [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)\r [![npm downloads](https://img.shields.io/npm/dm/distributed-rate-limiter.svg)](https://www.npmjs.com/package/distributed-rate-limiter)",
   "scripts": {
     "build": "tsc -p tsconfig.json --noEmit",
+    "benchmark": "tsx benchmarks/benchmark.ts",
     "example:express": "tsx examples/express-basic/src/server.ts",
     "example:fastify": "tsx examples/fastify-basic/src/server.ts",
     "test": "vitest run",
