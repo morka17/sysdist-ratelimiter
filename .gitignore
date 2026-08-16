@@ -1,3 +1,4 @@
 node_modules/
+dist/
 structure.md 
 .env
