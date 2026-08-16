@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import type { StoreInterface } from '../../src/store/store.interface.js';
+import type { StoreInterface } from '../src/store/interface.store.js';
 import { RateLimiter } from '../src/core/limiter.js';
-import { resolveConfig } from '../src/config/defaults.js';
+import { resolveConfig } from '../src/config/default.js';
 import { RateLimiterUnavailableError } from '../src/errors/rate-limit-exceeded.error.js';
 import { InMemoryMetricsRecorder } from '../src/telemetry/metrics.js';
 import type { Logger } from '../src/telemetry/logger.js';
