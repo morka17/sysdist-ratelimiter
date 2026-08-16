@@ -2,24 +2,24 @@
   "name": "sysdist",
   "version": "1.0.0",
   "description": "[![npm version](https://img.shields.io/npm/v/distributed-rate-limiter.svg)](https://www.npmjs.com/package/distributed-rate-limiter)\r [![CI](https://github.com/your-org/distributed-rate-limiter/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/distributed-rate-limiter/actions)\r [![Coverage](https://img.shields.io/codecov/c/github/your-org/distributed-rate-limiter)](https://codecov.io/gh/your-org/distributed-rate-limiter)\r [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)\r [![npm downloads](https://img.shields.io/npm/dm/distributed-rate-limiter.svg)](https://www.npmjs.com/package/distributed-rate-limiter)",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/morka17/sysdist.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Morka Joshua",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/morka17/sysdist/issues"
   },
   "homepage": "https://github.com/morka17/sysdist#readme",
   "devDependencies": {
-    "@types/node": "^26.2.0",
-    "typescript": "^7.0.2"
+    "@types/node": "^26.2.0"
   }
 }

@@ -1,5 +1,5 @@
 import { rateLimiterOptionsSchema, type RateLimiterOptions, type ResolvedRateLimiterConfig } from './schema.js';
-import { DEFAULT_KEY_GENERATOR } from '../middleware/shared/key-generator';
+import { DEFAULT_KEY_GENERATOR } from '../middleware/shared/key-generator.js';
 
 /**
  * Hardcoded defaults applied when a field is not supplied by the caller.

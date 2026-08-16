@@ -1,5 +1,5 @@
 import type { RateLimitAlgorithm, AlgorithmConfig } from './algorithm.interface.js';
-import type { StoreInterface } from '../../store/interface.store';
+import type { StoreInterface } from '../../store/interface.store.js';
 import type { RateLimitResult } from '../result.js';
 
 /** Stable algorithm identifier, used by limiter.ts's ALGORITHM_REGISTRY and in logs/metrics. */

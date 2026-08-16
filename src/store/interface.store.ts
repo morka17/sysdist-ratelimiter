@@ -1,5 +1,5 @@
-import type { RateLimitResult } from '../core/result';
-import type { AlgorithmConfig } from '../core/algorithms/algorithm.interface';
+import type { RateLimitResult } from '../core/result.js';
+import type { AlgorithmConfig } from '../core/algorithms/algorithm.interface.js';
 
 /**
  * Backend-agnostic contract for any rate-limit data store (Redis, memory,
